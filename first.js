@@ -16,7 +16,7 @@ const student = {
   inPass: true,
 };
 {
-  let a=14;
+let a;
 a=40;
 console.log(a)
 }
