@@ -21,6 +21,8 @@ a=40;
 console.log(a)
 }
 {
-  let a=14;
-console.log(a)
+let a=14;
+console.log(a);
 }
+student["age"]=student["age"]+1;
+console.log(student["age"]);
