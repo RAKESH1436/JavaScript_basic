@@ -40,18 +40,11 @@
 // console.log("5>3",a<b);
 // console.log("5>=3",a>=b);
 // console.log("5<=3",a<=b);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//let a = 6;
+//let b = 5;
+// let cond1 = a > b; //true
+// let cond2 = a === 6; //true
+// console.log("cond1 && cond2", cond1 && cond2);
+//console.log("con1 || con2", a < b || a === 6);
+//console.log("!(a<b)=", !(a < b));
 
