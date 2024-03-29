@@ -15,4 +15,12 @@ const student = {
   cpga: 8.3,
   inPass: true,
 };
-
+{
+  let a=14;
+a=40;
+console.log(a)
+}
+{
+  let a=14;
+console.log(a)
+}
