@@ -22,12 +22,31 @@
 // a=b--;
 // console.log("b--=", b);
 //Assigment opertors
-let a=6;
-let b=5;
-// a += 4;
-a -= 4;
+// let a=6;
+// let b=5;
+//  a += 4;
+// //a -= 4;
 
-console.log(a)
+// console.log(a)
+
+//Comparisonm Opertors
+// let a=6;
+// let b=3;
+// console.log("5==5",a==b);
+// console.log("5!=2",a!=b);
+// console.log("5===5",a===b);
+// console.log("5!==2",a!==b);
+// console.log("5<3",a>b);
+// console.log("5>3",a<b);
+// console.log("5>=3",a>=b);
+// console.log("5<=3",a<=b);
+
+
+
+
+
+
+
 
 
 
