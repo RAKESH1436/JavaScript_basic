@@ -57,6 +57,30 @@ if(age>=18){
 }
 if(age<18){
     console.log("novote",age);
-
-
 }
+
+// let mode ="dark";
+// let color;
+// if(mode==="dark"){
+//     color="dark";
+
+// }
+// if(mode==="light"){
+//     color="white";
+
+// }
+// console.log(color);
+
+let mode ="dark";
+let color;
+if(mode==="dark"){
+    color="dark"
+
+}else if(mode==="light"){
+    color="light"
+
+}else{
+    color="white"
+}
+console.log(color);
+
