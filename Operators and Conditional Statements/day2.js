@@ -49,15 +49,15 @@
 //console.log("!(a<b)=", !(a < b));
 
 //condition statement
-let age =17;
+// let age =17;
 
-if(age>=18){
-    console.log("vote",age);
+// if(age>=18){
+//     console.log("vote",age);
 
-}
-if(age<18){
-    console.log("novote",age);
-}
+// }
+// if(age<18){
+//     console.log("novote",age);
+// }
 
 // let mode ="dark";
 // let color;
@@ -71,16 +71,26 @@ if(age<18){
 // }
 // console.log(color);
 
-let mode ="dark";
-let color;
-if(mode==="dark"){
-    color="dark"
+// let mode ="dark";
+// let color;
+// if(mode==="dark"){
+//     color="dark"
 
-}else if(mode==="light"){
-    color="light"
+// }else if(mode==="light"){
+//     color="light"
 
-}else{
-    color="white"
+// }else{
+//     color="white"
+// }
+// console.log(color);
+
+// let age2=45;
+// let res=age2>=18?"adult":"no adult";
+// console.log(res);
+
+let num = prompt("enter the number");
+if (num % 5 === 0) {
+  console.log(num, "is a multiple  ");
+} else {
+  console.log(num, "is not a multiple ");
 }
-console.log(color);
-
