@@ -48,3 +48,15 @@
 //console.log("con1 || con2", a < b || a === 6);
 //console.log("!(a<b)=", !(a < b));
 
+//condition statement
+let age =17;
+
+if(age>=18){
+    console.log("vote",age);
+
+}
+if(age<18){
+    console.log("novote",age);
+
+
+}
