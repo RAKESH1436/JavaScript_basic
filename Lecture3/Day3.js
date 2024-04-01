@@ -29,22 +29,30 @@
 // }
 // console.log(size)
 
-let student ={
-  name:"sanjay",
-  age:20,
-  cgpa:7.5,
-  isPass:true
+// let student ={
+//   name:"sanjay",
+//   age:20,
+//   cgpa:7.5,
+//   isPass:true
 
-};
-for(let key in student){
-  console.log("key =",key,student[key]);
+// };
+// for(let key in student){
+//   console.log("key =",key,student[key]);
+// }
+
+// let s=100;
+// for(let i=0;i<=s;i++){
+//   if(i%2==0){
+//     console.log(i);
+
+//   }
+
+// }
+
+let game = 25;
+let usernum = parseInt(prompt("enetr the guess the number"));
+while (game !=  usernum) {
+  console.log("your the right path");
+  usernum = parseInt(prompt("enetr the guess the number"));
 }
-
-let s=100;
-for(let i=0;i<=s;i++){
-  if(i%2==0){
-    console.log(i);
-
-  }
-
-}
+console.log("cong");
