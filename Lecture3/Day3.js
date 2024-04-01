@@ -9,8 +9,14 @@
 // console.log("sum", sum);
 // console.log("loop has ended");
 
-let i = 20;
-while (i <= 10) {
-  console.log("sanjay");
-  i++;
-}
+// let i = 1;
+// while (i <= 10) {
+//   console.log("sanjay");
+//   i++;
+// }
+let e=3;
+
+do {
+  console.log("sanjay ");
+  e++;
+} while (e<=2);
