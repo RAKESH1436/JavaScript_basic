@@ -49,10 +49,25 @@
 
 // }
 
-let game = 25;
-let usernum = parseInt(prompt("enetr the guess the number"));
-while (game !=  usernum) {
-  console.log("your the right path");
-  usernum = parseInt(prompt("enetr the guess the number"));
-}
-console.log("cong");
+// let game = 25;
+// let usernum = parseInt(prompt("enetr the guess the number"));
+// while (game !=  usernum) {
+//   console.log("your the right path");
+//   usernum = parseInt(prompt("enetr the guess the number"));
+// }
+// console.log("cong");
+
+// let str="asnjay";
+// let s=str.length;
+// console.log(s);
+// console.log(str[3]);
+
+let obj={
+  item:"pen",
+  price:10,
+
+};
+let output=`the cost of ${obj.item} is ${obj.price} rupess`;
+console.log(output);
+
+
