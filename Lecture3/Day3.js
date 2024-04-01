@@ -8,3 +8,11 @@ for (let index = 0; index <= 6; index++) {
 }
 console.log("sum", sum);
 console.log("loop has ended");
+
+let w=20;
+while(w<=10){
+  console.log("sanjay");
+  w++
+
+
+}
