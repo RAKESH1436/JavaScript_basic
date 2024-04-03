@@ -15,11 +15,16 @@ let hero=["sanjay","rakesh","sahshauh"]
 let hero1=["sanjay","rakesh","sahshauh"]
 let hero2=["sanjay","rakesh","sahshauh"]
 let a=[hero,hero1,hero2];
-console.log(a[2]);
-console.log(a[hero[2]="sanj"])
-console.log(a)
+// console.log(a[2]);
+// console.log(a[hero[2]="sanj"])
+// console.log(a)
 //loping over an arrray 
 //print all the element
+for (let index = 0; index < a.length; index++) {
+    //const element = Array[index];
+    console.log(hero2[index]);
+    
+}
 
 
 
