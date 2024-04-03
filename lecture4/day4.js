@@ -12,7 +12,19 @@ let mark={
 console.log(mark);
 console.log(marks.length);
 let hero=["sanjay","rakesh","sahshauh"]
+let hero1=["sanjay","rakesh","sahshauh"]
+let hero2=["sanjay","rakesh","sahshauh"]
+let a=[hero,hero1,hero2];
+console.log(a[2]);
+console.log(a[hero[2]="sanj"])
+console.log(a)
+//loping over an arrray 
+//print all the element
 
-console.log(hero)
+
+
+
+
+console.log(hero[2])
 
 
