@@ -71,3 +71,5 @@ let output=`the cost of ${obj.item} is ${obj.price} rupess`;
 console.log(output);
 
 
+
+
