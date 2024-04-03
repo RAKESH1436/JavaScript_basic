@@ -11,5 +11,8 @@ let mark={
 }
 console.log(mark);
 console.log(marks.length);
+let hero=["sanjay","rakesh","sahshauh"]
+
+console.log(hero)
 
 
