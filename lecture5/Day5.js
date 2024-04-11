@@ -81,5 +81,9 @@ let newArr=nums.map((val)=>{
 console.log(newArr);
 
 
-
+let arr=[3,6,8,9,6,5,9];
+let evenArr =arr.filter((val)=>{
+return val%2===0;
+})
+console.log(evenArr)
 
