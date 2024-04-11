@@ -55,18 +55,31 @@
 //   }
 
 
-let arr=[1,2,3,4,5];
-arr.forEach(function printVal(val,idx,arr){
-  console.log(val,idx,arr)
-})
-let arr1=["sanjay","rakesh","love","hgfsahgs"];
-arr1.forEach(function printVal(val,idx,arr){
-  console.log(val.toUpperCase(),idx,arr)
-})
+// let arr=[1,2,3,4,5];
+// arr.forEach(function printVal(val,idx,arr){
+//   console.log(val,idx,arr)
+// })
+// let arr1=["sanjay","rakesh","love","hgfsahgs"];
+// arr1.forEach(function printVal(val,idx,arr){
+//   console.log(val.toUpperCase(),idx,arr)
+// })
 
-let num =[2,3,4,4,5]
-num.forEach((num)=>{
-  console.log(num*num)
+// let num =[2,3,4,4,5]
+// num.forEach((num)=>{
+//   console.log(num*num)
+// })
+
+// let numa=(num)=>{
+//   console.log(num*num);
+// };
+// num.forEach(numa)
+ 
+let nums=[67,76,78,78]
+let newArr=nums.map((val)=>{
+  return val;
 })
- 
- 
+console.log(newArr);
+
+
+
+
