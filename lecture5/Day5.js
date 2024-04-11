@@ -33,8 +33,6 @@
 //   return a * b;
 // }
 
-
-
 //  const arrowfunation=(str)=>{
 //     let count = 0;
 //     for (const char of str) {
@@ -48,12 +46,11 @@
 //       ) {
 //         count++;
 //       }
-  
+
 //     }
 //   return count;
-  
-//   }
 
+//   }
 
 // let arr=[1,2,3,4,5];
 // arr.forEach(function printVal(val,idx,arr){
@@ -73,17 +70,37 @@
 //   console.log(num*num);
 // };
 // num.forEach(numa)
- 
-let nums=[67,76,78,78]
-let newArr=nums.map((val)=>{
-  return val;
-})
-console.log(newArr);
 
+// let nums = [67, 76, 78, 78];
+// let newArr = nums.map((val) => {
+//   return val;
+// });
+// console.log(newArr);
 
-let arr=[3,6,8,9,6,5,9];
-let evenArr =arr.filter((val)=>{
-return val%2===0;
-})
-console.log(evenArr)
+// let arr = [3, 6, 8, 9, 6, 5, 9];
+// let evenArr = arr.filter((val) => {
+//   return val % 2 === 0;
+// });
+// console.log(evenArr);
 
+// const output=arr.reduce((prev, curr) => {
+//   return prev > curr ? prev : curr;
+// });
+
+// console.log(output);
+
+// let marks=[97,64,32,67,89,91,93,98,96,58,78,99,86];
+// let topper=marks.filter((val)=>{
+//   return val >90;
+
+// })
+// topper.forEach((topper ,idx)=>{
+//   console.log(topper,idx)
+
+// })
+let n = prompt ("enter a number:");
+let arrt = [];
+for (let i = 1; i <= n; i++) {
+  arrt[i - 1] = i;
+}
+console.log(arrt);
