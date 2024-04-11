@@ -33,23 +33,36 @@
 //   return a * b;
 // }
 
-function countVowel(str) {
-  let count = 0;
-  for (const char of str) {
-    console.log(char);
-    if (
-      char === "a" ||
-      char === "e" ||
-      char === "i" ||
-      char === "o" ||
-      char === "u"
-    ) {
-      count++;
-    }
-
-  }
-console.log(count);
 
 
-}
-console.log(countVowel("abc"))
+//  const arrowfunation=(str)=>{
+//     let count = 0;
+//     for (const char of str) {
+//       console.log(char);
+//       if (
+//         char === "a" ||
+//         char === "e" ||
+//         char === "i" ||
+//         char === "o" ||
+//         char === "u"
+//       ) {
+//         count++;
+//       }
+  
+//     }
+//   return count;
+  
+//   }
+
+
+let arr=[1,2,3,4,5];
+arr.forEach(function printVal(val){
+  console.log(val)
+})
+let arr1=["sanjay","rakesh","love","hgfsahgs"];
+arr1.forEach(function printVal(val){
+  console.log(val)
+})
+
+ 
+ 
