@@ -64,5 +64,9 @@ arr1.forEach(function printVal(val,idx,arr){
   console.log(val.toUpperCase(),idx,arr)
 })
 
+let num =[2,3,4,4,5]
+num.forEach((num)=>{
+  console.log(num*num)
+})
  
  
