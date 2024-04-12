@@ -98,9 +98,19 @@
 //   console.log(topper,idx)
 
 // })
-let n = prompt ("enter a number:");
+let n = prompt("enter a number:");
 let arrt = [];
 for (let i = 1; i <= n; i++) {
   arrt[i - 1] = i;
 }
 console.log(arrt);
+
+let sum = arrt.reduce((res, curr) => {
+  return res + curr;
+});
+console.log(sum);
+
+let factorial = arrt.reduce((res, curr) => {
+  return res * curr;
+});
+console.log("factorial=", factorial);
