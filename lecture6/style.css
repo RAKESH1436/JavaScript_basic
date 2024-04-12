@@ -1,12 +1,15 @@
 h2 {
     color: #d8103f;
     background-color: rgb(35, 212, 212);
+    margin: 2px;
+    padding: 5px;
+    width: 75px;
 
 }
 body{
-    background-color: blueviolet;
+    background-color: rgb(215, 196, 232);
 }
 button{
-    background-color: #d8103f;
-    color: #0d0b0b;
+    background-color: #da869a;
+    color: #e8dcdc;
 }
