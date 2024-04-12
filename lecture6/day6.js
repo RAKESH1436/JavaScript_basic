@@ -11,8 +11,13 @@ console.log(headung)
 let parahs=document.getElementsByTagName("p");
 console.log(parahs);
 
+let elements=document.querySelector(".p");//class
+console.log(elements);
+let allelement=document.querySelectorAll("p")
+console.log(allelement);
 let elements=document.querySelector("p");
 console.log(elements);
 let allelement=document.querySelectorAll("p")
 console.log(allelement);
+
 
