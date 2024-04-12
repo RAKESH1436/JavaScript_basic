@@ -1,15 +1,17 @@
-h2 {
-    color: #d8103f;
-    background-color: rgb(35, 212, 212);
+.heading {
+    color: #301de3;
+    background-color: rgb(210, 223, 223);
     margin: 2px;
     padding: 5px;
     width: 75px;
 
 }
-body{
+
+body {
     background-color: rgb(215, 196, 232);
 }
-button{
+
+button {
     background-color: #da869a;
     color: #e8dcdc;
 }
