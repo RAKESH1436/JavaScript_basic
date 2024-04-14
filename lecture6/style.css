@@ -1,4 +1,4 @@
-.heading {
+/* .heading {
     color: #301de3;
     background-color: rgb(210, 223, 223);
     margin: 2px;
@@ -14,4 +14,13 @@ body {
 button {
     background-color: #da869a;
     color: #e8dcdc;
+} */
+#box {
+    height: 100px;
+    width:100px ;
+    background-color: blue;
+    color: blue;
+    border : 10px solid black ;
+    
+
 }
