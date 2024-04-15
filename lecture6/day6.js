@@ -39,21 +39,31 @@
 // }
 //div.style.visibility="hidden";
 
-let s=document.createElement("button");
-s.innerText="click me";
-console.log(s);
-let div=document.querySelector("p");//div ke pahle
-//div.append(s);
-//div.prepend(s);
-//div.before(s);
-div.after(s);
-let newHeading =document.createElement("h1");
-newHeading.innerHTML="<i>hi,i m new !</i>";
+// let s=document.createElement("button");
+// s.innerText="click me";
+// console.log(s);
+// let div=document.querySelector("p");//div ke pahle
+// //div.append(s);
+// //div.prepend(s);
+// //div.before(s);
+// div.after(s);
+// let newHeading =document.createElement("h1");
+// newHeading.innerHTML="<i>hi,i m new !</i>";
 
-document.querySelector("body").after(newHeading);
+// document.querySelector("body").after(newHeading);
+// let para=document.querySelector("p");
+// para.remove();
+// newHeading.remove();
+
+
+// let newBtn=document.createElement("button");
+// newBtn.innerText='click me';
+// newBtn.style.background="red";
+// newBtn.style.color="white"
+// document.querySelector("body").prepend(newBtn);
+//Q2
+
+
 let para=document.querySelector("p");
-para.remove();
-newHeading.remove();
-
 
 
