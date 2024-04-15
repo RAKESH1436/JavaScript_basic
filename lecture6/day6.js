@@ -29,7 +29,31 @@
 // console.log(name);
 // let para=document.querySelector("p");
 // console.log(para.setAttribute("class","classnew"));
-let div =document.querySelector("div");
-div.style
+//let div = document.querySelector("div");
+//let ft = prompt("ft");
+// if (ft.endsWith("ft")) {
+//   div.style.fontSize = "26px";
+// } else {
+//   div.style.backgroundColor = "red";
+//   div.innerText = "sanjay";
+// }
+//div.style.visibility="hidden";
+
+let s=document.createElement("button");
+s.innerText="click me";
+console.log(s);
+let div=document.querySelector("p");//div ke pahle
+//div.append(s);
+//div.prepend(s);
+//div.before(s);
+div.after(s);
+let newHeading =document.createElement("h1");
+newHeading.innerHTML="<i>hi,i m new !</i>";
+
+document.querySelector("body").after(newHeading);
+let para=document.querySelector("p");
+para.remove();
+newHeading.remove();
+
 
 

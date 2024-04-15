@@ -16,10 +16,10 @@ button {
     color: #e8dcdc;
 } */
 #box {
-    height: 100px;
+    height: 180px;
     width:100px ;
     background-color: blue;
-    color: blue;
+    color: rgb(16, 23, 6);
     border : 10px solid black ;
     
 
