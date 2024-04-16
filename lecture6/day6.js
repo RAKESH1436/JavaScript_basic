@@ -67,3 +67,4 @@
 let para=document.querySelector("p");
 
 para.classList.remove("newClass");
+
