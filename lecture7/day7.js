@@ -35,9 +35,12 @@ let current="light";
 modebtn.addEventListener("click", () => {
   if(current==="light"){
     current="dark";
+    document.querySelector("body").style.backgroundColor="black";
 
   }else{
     current="light"
+    document.querySelector("body").style.backgroundColor="black";
+
 
   }
   console.log(current);
