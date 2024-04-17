@@ -32,14 +32,21 @@
 
 let modebtn = document.querySelector("#mode");
 let current="light";
+let body=document.querySelector("body")
 modebtn.addEventListener("click", () => {
   if(current==="light"){
     current="dark";
     document.querySelector("body").style.backgroundColor="black";
+    body.classList.add("dark");
+    body.classList.remove("light");
 
   }else{
     current="light"
     document.querySelector("body").style.backgroundColor="white";
+    body.classList.add("light");
+    body.classList.remove("dark");
+
+
 
 
   }
