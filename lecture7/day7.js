@@ -39,7 +39,7 @@ modebtn.addEventListener("click", () => {
 
   }else{
     current="light"
-    document.querySelector("body").style.backgroundColor="black";
+    document.querySelector("body").style.backgroundColor="white";
 
 
   }
