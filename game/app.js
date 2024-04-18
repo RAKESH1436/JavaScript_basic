@@ -33,9 +33,13 @@ boxes.forEach((box) => {
     console.log("box was clicked");
     if (turn0) {
       box.innerText = "O";
+      box.classList.add("O-color"); 
+
+      
       turn0 = false;
     } else {
       box.innerText = "X";
+      box.classList.add("Y-color"); 
       turn0 = true;
     }
     box.disabled = true;
