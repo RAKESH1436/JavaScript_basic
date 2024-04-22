@@ -9,3 +9,4 @@ console.log(dat);
 console.log(date.toJSON())
 console.log(date.toDateString())
 console.log(date.toLocaleTimeString())
+console.log(date.now());
