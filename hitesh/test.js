@@ -6,7 +6,11 @@ console.log(typeof strinnum);
 let date=new Date();
 let dat=date.toString();
 console.log(dat);
-console.log(date.toJSON())
+console.log(date.getHours())
 console.log(date.toDateString())
 console.log(date.toLocaleTimeString())
-console.log(date.now());
+let myarr=[1,2,3,3,4,4,5];
+console.log(myarr);
+myarr.unshift(8);
+myarr.shift()
+console.log(myarr)
