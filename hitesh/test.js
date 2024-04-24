@@ -14,3 +14,4 @@ console.log(myarr);
 myarr.unshift(8);
 myarr.shift()
 console.log(myarr)
+console.log(myarr.includes(1))
