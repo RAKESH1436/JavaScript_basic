@@ -14,4 +14,11 @@ console.log(myarr);
 myarr.unshift(8);
 myarr.shift()
 console.log(myarr)
-console.log(myarr.includes(1))
+console.log(myarr.includes(1));
+console.log("B",myarr);
+console.log(myarr.slice(1,3));
+console.log("A",myarr);
+console.log("C",myarr.splice(1,3));
+
+
+
