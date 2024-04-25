@@ -1,4 +1,4 @@
-const list = {
+const course = {
   courname: "js in hindi",
   price: "7878",
   courseIn: "hitesh",
@@ -12,3 +12,5 @@ console.log(inter);
 //     "price":"w2873"
 
 // }
+
+
