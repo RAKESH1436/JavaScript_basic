@@ -9,8 +9,15 @@ saymycode();
 // }
 
 function add(num1, num2) {
-  let result = num1 + num2;
-  return result;
+  //let result = num1 + num2;
+  return num1+num2;
 }
 let result = add(4, 7);
 console.log(result);
+
+function loginUserMessage(username){
+    return `${username} just logged in`
+
+
+}
+loginUserMessage()
