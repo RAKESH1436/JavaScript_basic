@@ -20,7 +20,12 @@ const employe={
 };
 const karanArjun={
     salary:687,
+    calTax2(){
+        console.log("tax rate is 5675");
 
-}
+        
+    },
+
+};
 
 karanArjun.__proto__=employe;
