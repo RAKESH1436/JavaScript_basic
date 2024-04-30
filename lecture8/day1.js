@@ -7,6 +7,58 @@
 
 // // };
 
+
+
+function asyncfunc(){
+    return new Promise((resolve,reject)=>{
+        setTimeout(()=>{
+            console.log("data1")
+            resolve("success 1")
+        },4000)
+    })
+}
+function asyncfunc2(){
+    return new Promise((resolve,reject)=>{
+        setTimeout(()=>{
+            console.log("data 2")
+            resolve("success 2")
+        },2000)
+    })
+}
+function asyncfunc3(){
+    return new Promise((resolve,reject)=>{
+        setTimeout(()=>{
+            console.log("data errr")
+           // resolve("success 2")
+           reject("err");
+        },2000)
+    })
+}
+console.log("fetching data1......errr......");
+let p3=asyncfunc3();
+p3.then((rej)=>{
+    console.log(rej);
+})
+
+
+// console.log("fetching data1............");
+// let p1=asyncfunc();
+// p1.then((res)=>{
+//     console.log(res);
+// })
+// console.log("fetching data2............");
+// let p2=asyncfunc2();
+// p2.then((res)=>{
+//     console.log(res);
+//     let p2=asyncfunc();
+//     p2.then((res)=>{})
+// })
+
+console.log("fetching data2............");
+asyncfunc2().then((res)=>{
+    console.log(res);
+    asyncfunc().then((res)=>{})
+})
 // // const employe={
 // //     calTax(){
 // //         console.log("tax rate is 100");
@@ -93,25 +145,22 @@
 //   reject("some error");
 // });
 
-const getPromise=()=>{
-   return new Promise((resolve, reject) => {
-        console.log("i am promise");
-        resolve("sucees");
-       // reject("some error");
-      });
-};
+// const getPromise = () => {
+//   return new Promise((resolve, reject) => {
+//     console.log("i am promise");
+//     resolve("sucees");
+//     // reject("some error");
+//   });
+// };
 
+// let promise = getPromise();
+// promise.then((res) => {
+//   console.log("promise fulfilled", res);
+// });
 
-let promise =getPromise();
-promise.then((res)=>{
-    console.log("promise fulfilled",res)
-
-});
-
-promise.catch((err)=>{
-    console.log("this is error",err)
-});
-
+// promise.catch((err) => {
+//   console.log("this is error", err);
+// });
 
 // function getData(dataid, getNextData) {
 //   return new Promise((resolve, reject) => {
